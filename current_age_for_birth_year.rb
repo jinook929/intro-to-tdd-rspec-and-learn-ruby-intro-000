@@ -1,5 +1,3 @@
 def current_age_for_birth_year(year)
-  puts Time.now.year
-  current_year = Time.now.year
-  current_year - year
+  Time.now.year.to_i - year
 end
